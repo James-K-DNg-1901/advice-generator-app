@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body>
+  <main>
+    <div class="root">
+      <div class="main-box">
+        <p>Advice # <span id="advice-id">000</span></p>
+        <h1>"<span id="advice-value">Roll the dice below</span>"</h1>
+       <picture>
+        <source media="(min-width: 700px)" srcset="./images/pattern-divider-desktop.svg">
+        <img src="./images/pattern-divider-mobile.svg" alt="">
+       </picture>
+      </div>
+      <div id="dice-btn" class="btn"></div>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
